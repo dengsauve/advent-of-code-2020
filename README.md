@@ -17,6 +17,9 @@ Little longer due to the amount of validation, but I got both parts right on the
 **Day-05**
 I messed up by not adding the column and instead ended up multiplying all three at first. Took me 15 minutes of debugging to realize my mistake, and by then any chance of top 100 was long gone. Still took me less than 30 minutes even with the hair pulling 15 of figuring out why something was amiss.
 
+**Day-06**
+Array uniq counts and merging then checking for counts. Easy enough to solve, late start tonight.
+
 ## Footnotes
 
 <sup>1</sup>Eastern Standard Time 😉
