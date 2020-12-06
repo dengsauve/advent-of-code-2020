@@ -1,13 +1,8 @@
+require '../lib/aoc-lib'
 input = open('./input.txt').read
 required_fields = %w[byr iyr eyr hgt hcl ecl pid]
 valid_count = 0
 validated_count = 0
-
-class String
-  def numeric?
-    Float(self) != nil rescue false
-  end
-end
 
 def get_hash(group)
   h = {}
