@@ -1,3 +1,4 @@
+require '../lib/aoc-lib'
 input = open('./input.txt').readlines
 ids = []
 
@@ -7,11 +8,10 @@ input.each do |pass|
 
   (0..6).each do |index|
     operator = pass[index]
-
     if operator == 'F'
-      rows = rows.each_slice( (rows.size/2.0).round ).to_a[0]
+      rows = rows.to_a.first_half
     elsif operator == 'B'
-      rows = rows.each_slice( (rows.size/2.0).round ).to_a[1]
+      rows = rows.to_a.second_half
     end
   end
 
@@ -19,11 +19,10 @@ input.each do |pass|
 
   (7..9).each do |index|
     operator = pass[index]
-
     if operator == 'L'
-      cols = cols.each_slice( (cols.size/2.0).round ).to_a[0]
+      cols = cols.to_a.first_half
     elsif operator == 'R'
-      cols = cols.each_slice( (cols.size/2.0).round ).to_a[1]
+      cols = cols.to_a.second_half
     end
   end
 
