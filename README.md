@@ -23,6 +23,9 @@ Array uniq counts and merging then checking for counts. Easy enough to solve, la
 **Day-07**
 I don't know what I was thinking, but I tried and OO the first night. Came back w/fresh eyes the next day and binned the whole affair. Solved w/procedural loops. Recursive would have been nice, but 🤷‍♂️
 
+**Day-08**
+I forgot to reset the @accumulator variable when trying jpm/nop swapping, that set me back 5 minutes at least on the 2nd half.
+
 ## Footnotes
 
 <sup>1</sup>Eastern Standard Time 😉
