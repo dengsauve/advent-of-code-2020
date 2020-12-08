@@ -20,6 +20,9 @@ I messed up by not adding the column and instead ended up multiplying all three 
 **Day-06**
 Array uniq counts and merging then checking for counts. Easy enough to solve, late start tonight.
 
+**Day-07**
+I don't know what I was thinking, but I tried and OO the first night. Came back w/fresh eyes the next day and binned the whole affair. Solved w/procedural loops. Recursive would have been nice, but 🤷‍♂️
+
 ## Footnotes
 
 <sup>1</sup>Eastern Standard Time 😉
