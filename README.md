@@ -26,6 +26,9 @@ I don't know what I was thinking, but I tried and OO the first night. Came back 
 **Day-08**
 I forgot to reset the @accumulator variable when trying jpm/nop swapping, that set me back 5 minutes at least on the 2nd half.
 
+**Day-09**
+First part, easy peasy. Second part was a little more tedious, mostly because I thought about recursing the problem the wrong way.
+
 ## Footnotes
 
 <sup>1</sup>Eastern Standard Time 😉
