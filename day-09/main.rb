@@ -1,3 +1,4 @@
+require '../lib/aoc-lib'
 input = open('input.txt').readlines.map { |e| e.to_i }
 
 def check_sum(sum, array)
@@ -25,18 +26,5 @@ input.each_with_index do |sum, index|
   end
 end
 
-range = []
-
-input.each_with_index do |num, index|
-  (input.size - index - 1).times do |i|
-    num += input[index + i + 1]
-    if num == invalid_number
-      puts "index range: #{index} - #{index + i + 1}\nnum: #{num}"
-      range = input[(index)..(index + i + 1)]
-      break
-    end
-
-  end
-end
-
-puts "encryption weakness: #{range.minmax.sum}" # not 117378467788482
+range = sum_hunter(input, invalid_number)
+puts "encryption weakness: #{range.minmax.sum}" # not 117378467788482, but 13414198
