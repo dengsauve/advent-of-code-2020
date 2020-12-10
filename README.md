@@ -1,6 +1,7 @@
 # Advent of Code - 2020
 Gather 'round, gather 'round, it is once again time to celebrate the approaching Christmas Holiday in the most time honored and cherished way. Every night at midnight<sup>1</sup>, a new 2 part programming challenge appears on the advent calenar. As is tradition, I'll be solving these puzzles using [Ruby](https://www.ruby-lang.org/en/), and if you look at my code, you'll have to agree you can do pretty neat things with Ruby<sup>2</sup>.
 
+
 ## Daily Log
 **Day-01**
 Easy peasy, brute forcing array of ints to find some combos. Might try to refactor into a recursive function.
@@ -28,6 +29,12 @@ I forgot to reset the @accumulator variable when trying jpm/nop swapping, that s
 
 **Day-09**
 First part, easy peasy. Second part was a little more tedious, mostly because I thought about recursing the problem the wrong way.
+
+**Day-10**
+First part was very straightforward, the second part I actually couldn't wrap my mind around how to do this programmatically.
+I'm not ashamed to say that I lifted a solution from reddit's megathread.
+On that note, I resolve to teach myself more about Dynamic Programming and how it applies to this puzzle.
+
 
 ## Footnotes
 
