@@ -1,3 +1,5 @@
-*.txt -linguist-detectable
-/**/*.txt -linguist-detectable
-day-01/*.txt -linguist-detectable
+; *.txt -linguist-detectable
+; /**/*.txt -linguist-detectable
+
+*.txt linguist-detectable=false
+/**/*.txt linguist-detectable=false
