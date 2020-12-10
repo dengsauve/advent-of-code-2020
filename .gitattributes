@@ -1,1 +1,2 @@
 *.txt -linguist-detectable
+day-01/*.txt -linguist-detectable
