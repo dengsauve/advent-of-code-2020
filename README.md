@@ -35,6 +35,8 @@ First part was very straightforward, the second part I actually couldn't wrap my
 I'm not ashamed to say that I lifted a solution from reddit's megathread.
 On that note, I resolve to teach myself more about Dynamic Programming and how it applies to this puzzle.
 
+**Day-11**
+
 
 ## Footnotes
 
