@@ -36,6 +36,11 @@ I'm not ashamed to say that I lifted a solution from reddit's megathread.
 On that note, I resolve to teach myself more about Dynamic Programming and how it applies to this puzzle.
 
 **Day-11**
+I hurt
+
+**Day-12**
+I got the correct answer on the first try for parts 1 and 2! Hype! Also, I took a break from AoC, and am doing 12 on 12/18
+
 
 
 ## Footnotes
