@@ -1,6 +1,7 @@
 input = [5,2,8,16,18,0,1]
 indexes = {}
-target = 2020
+target = 30000000
+# target = 2020
 
 input[0...-1].each_with_index do |t, i|
 	indexes[t] = i
@@ -18,6 +19,8 @@ def find_last_instance(target, arr)
 end
 =end
 
+starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+
 until input.length == target do
 	# puts "input", input.inspect, "indexes", indexes.inspect
 	# gets
@@ -32,4 +35,7 @@ until input.length == target do
 	input << next_num
 end
 
-puts "The #{target}th number is: #{input[-1]}"
+ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+
+puts "The #{target}th number is: #{input[-1]}, \
+found in #{ending - starting} seconds"
